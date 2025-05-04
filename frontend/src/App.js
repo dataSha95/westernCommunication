@@ -155,6 +155,72 @@ function App() {
     </div>
   </div>
 </section>
+{/* Contact Section */}
+<section className="contact py-5 bg-light">
+  <div className="container">
+    <h2 className="text-center mb-4">Contact Us</h2>
+    <div className="row">
+      <div className="col-md-6">
+        <form>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">Full Name</label>
+            <input type="text" className="form-control" id="name" placeholder="Enter your full name" required />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">Email address</label>
+            <input type="email" className="form-control" id="email" placeholder="Enter your email" required />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">Message</label>
+            <textarea className="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+          </div>
+          <button type="submit" className="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+      <div className="col-md-6">
+        <h4>Our Office</h4>
+        <p><strong>Company Address:</strong> 123 Business Avenue, City, Country</p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Email:</strong> contact@company.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+{/* Footer Section */}
+<footer className="footer bg-dark text-white py-4">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-4">
+        <h5>Company</h5>
+        <ul className="list-unstyled">
+          <li><a href="#" className="text-white">About Us</a></li>
+          <li><a href="#" className="text-white">Careers</a></li>
+          <li><a href="#" className="text-white">Services</a></li>
+        </ul>
+      </div>
+      <div className="col-md-4">
+        <h5>Quick Links</h5>
+        <ul className="list-unstyled">
+          <li><a href="#" className="text-white">Privacy Policy</a></li>
+          <li><a href="#" className="text-white">Terms of Service</a></li>
+          <li><a href="#" className="text-white">FAQs</a></li>
+        </ul>
+      </div>
+      <div className="col-md-4">
+        <h5>Contact</h5>
+        <ul className="list-unstyled">
+          <li>Email: <a href="mailto:contact@company.com" className="text-white">contact@company.com</a></li>
+          <li>Phone: <a href="tel:+15551234567" className="text-white">+1 (555) 123-4567</a></li>
+          <li>Address: 123 Business Ave, City, Country</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div className="text-center">
+      <p>&copy; 2025 Company Name. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
 
 
     </div>
